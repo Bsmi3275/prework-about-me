@@ -1,70 +1,64 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
 body {
-    color: #222222;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
 }
 
-.content-footer,
-.masthead-heading,
-.masthead-intro {
-  text-align: center;
+header {
+  background: #d21034;
 }
 
-.masthead {
-  padding: 6em 0;
-  background-image: url('../img/code.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.masthead-intro {
-    margin-bottom: 0.1em;
-    font-size: 2em;
-    color: #ffffff;
-}
-
-.masthead-heading {
-    margin-top: -0.2em;
-    font-weight: bold;
-    font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.details {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-}
-
-.details > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
-}
-
-.details > h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 2em 0 1em 0;
-}
-
-section > h1 {
-    margin-top: 2em;
-}
-
-#footer {
+h1 {
   padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
   text-align: center;
-  background-color: #111111;
-  text-decoration: none;
+  background: #333;
 }
 
-#footer a {
-  color: #ffffff;
+h2 {
+  font-size: 24px;
 }
-.social > li {
-  display: inline-block;
-  margin: 0 5px;
+
+a {
+  color: #d21034;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
 }
